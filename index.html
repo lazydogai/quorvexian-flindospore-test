@@ -1,29 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quorvexian Flindospore-13a986 — definition</title>
-  <meta name="description" content="Definition of Quorvexian Flindospore-13a986: a coined nonce term for a Lazy Dog AI indexing test. Not a real product." />
+  <title>Quorvexian Flindospore-13a986｜懶狗 AI 索引測試</title>
+  <meta name="description" content="Quorvexian Flindospore-13a986 係懶狗 AI（Lazy Dog AI）／銘誠創匯刻意造出嘅冷門詞，只用嚟測試 Google 收錄，並非真實產品或服務。" />
   <meta name="robots" content="index,follow" />
+  <meta name="author" content="Lazy Dog AI / 銘誠創匯" />
+  <link rel="canonical" href="https://lazydogai.github.io/quorvexian-flindospore-test/" />
+  <meta property="og:title" content="Quorvexian Flindospore-13a986｜懶狗 AI 索引測試" />
+  <meta property="og:description" content="由懶狗 AI／銘誠創匯製作嘅公開索引測試頁，非商業產品。" />
+  <meta property="og:url" content="https://lazydogai.github.io/quorvexian-flindospore-test/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Lazy Dog AI" />
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #111; }
-    h1 { font-size: 1.6rem; }
-    .meta { color: #555; font-size: .9rem; }
-    code { background: #f4f4f4; padding: .1rem .35rem; border-radius: 4px; }
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --ink: #142033;
+      --muted: #5b6b7c;
+      --line: #e3eaf2;
+      --brand: #0b6e4f;
+      --brand-soft: #e6f5ef;
+      --accent: #1d4ed8;
+      --warn: #9a3412;
+      --warn-bg: #fff7ed;
+      --radius: 18px;
+      --shadow: 0 18px 50px rgba(20, 32, 51, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang TC", "Noto Sans TC", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #dbeafe 0%, transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, #d1fae5 0%, transparent 50%),
+        var(--bg);
+      line-height: 1.65;
+    }
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+    .wrap { max-width: 44rem; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .brand {
+      display: flex; align-items: center; gap: .75rem; min-width: 0;
+    }
+    .logo {
+      width: 42px; height: 42px; border-radius: 12px;
+      background: linear-gradient(145deg, #0b6e4f, #14967a);
+      color: #fff; display: grid; place-items: center;
+      font-weight: 800; letter-spacing: -.02em; flex: 0 0 auto;
+      box-shadow: 0 8px 20px rgba(11, 110, 79, .25);
+    }
+    .brand h2 { margin: 0; font-size: 1rem; line-height: 1.25; }
+    .brand p { margin: .15rem 0 0; color: var(--muted); font-size: .82rem; }
+    .pill {
+      display: inline-flex; align-items: center; gap: .35rem;
+      padding: .35rem .7rem; border-radius: 999px;
+      background: var(--brand-soft); color: var(--brand);
+      font-size: .78rem; font-weight: 700; white-space: nowrap;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--line);
+      border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 1.35rem 1.25rem 1.5rem;
+    }
+    .badge-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
+    .badge {
+      font-size: .75rem; font-weight: 700; letter-spacing: .02em;
+      padding: .28rem .6rem; border-radius: 999px; border: 1px solid var(--line);
+      background: #f8fafc; color: var(--muted);
+    }
+    .badge.owner { background: var(--brand-soft); border-color: #b7e4d2; color: var(--brand); }
+    h1 {
+      margin: 0 0 .55rem; font-size: clamp(1.45rem, 4vw, 1.9rem);
+      line-height: 1.25; letter-spacing: -.02em; word-break: break-word;
+    }
+    .lead { margin: 0 0 1rem; color: var(--muted); font-size: .98rem; }
+    .notice {
+      margin: 0 0 1.25rem; padding: .9rem 1rem; border-radius: 14px;
+      background: var(--warn-bg); border: 1px solid #fed7aa; color: var(--warn);
+      font-size: .92rem;
+    }
+    .notice strong { color: #7c2d12; }
+    h2 { margin: 1.35rem 0 .55rem; font-size: 1.05rem; }
+    p { margin: 0 0 .85rem; }
+    ol { margin: 0 0 1rem; padding-left: 1.2rem; }
+    li { margin: .35rem 0; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #f1f5f9; border: 1px solid #e2e8f0;
+      padding: .1rem .35rem; border-radius: 6px; font-size: .9em;
+    }
+    .panel {
+      margin-top: 1.1rem; padding: 1rem;
+      border-radius: 14px; background: #f8fafc; border: 1px solid var(--line);
+    }
+    .panel h3 { margin: 0 0 .4rem; font-size: .95rem; }
+    .panel p { margin: 0; color: var(--muted); font-size: .9rem; }
+    footer {
+      margin-top: 1.25rem; padding: 1rem 1.1rem;
+      border-radius: var(--radius); background: #0f172a; color: #cbd5e1;
+      display: grid; gap: .35rem;
+    }
+    footer strong { color: #fff; }
+    footer a { color: #93c5fd; }
+    .fine { font-size: .82rem; color: #94a3b8; }
+    @media (max-width: 560px) {
+      .topbar { align-items: flex-start; flex-direction: column; }
+    }
   </style>
 </head>
 <body>
-  <h1>Quorvexian Flindospore-13a986</h1>
-  <p class="meta">Coined nonce term · indexing test · 2026-10-11 · Lazy Dog AI</p>
-  <p><strong>Quorvexian Flindospore-13a986</strong> is a deliberately obscure coined phrase created only to test whether a newly published web page can be discovered by Google Search.</p>
-  <h2>Definition</h2>
-  <p>In this test, <em>Quorvexian Flindospore-13a986</em> means: a unique, non-commercial label with no prior web footprint, used to observe crawl and indexing behavior.</p>
-  <h2>How to verify</h2>
-  <ol>
-    <li>Search Google for the exact phrase: <code>Quorvexian Flindospore-13a986</code></li>
-    <li>Or use <code>site:</code> against this page’s host once published.</li>
-  </ol>
-  <p class="meta">This page makes no ranking guarantees. It exists only for measurement.</p>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">LD</div>
+        <div>
+          <h2>懶狗 AI · Lazy Dog AI</h2>
+          <p>銘誠創匯 · lazydogai.com</p>
+        </div>
+      </div>
+      <span class="pill">公開索引測試頁</span>
+    </header>
+
+    <main class="card">
+      <div class="badge-row">
+        <span class="badge owner">Owned by Lazy Dog AI / 銘誠創匯</span>
+        <span class="badge">Not a product</span>
+        <span class="badge">SEO / GEO crawl test</span>
+      </div>
+
+      <h1>Quorvexian Flindospore-13a986</h1>
+      <p class="lead">刻意造出嘅冷門詞 · 索引測試 · 2026-10-11 · 由懶狗 AI／銘誠創匯發佈</p>
+
+      <div class="notice">
+        <strong>重要聲明：</strong>呢個詞同呢個頁面只係懶狗 AI（Lazy Dog AI）同銘誠創匯為測試 Google／AI 搜尋收錄而製作，<strong>唔係</strong>真實商品、服務、品牌或第三方資產。任何人唔應將呢個詞據為己有或當商業用途。
+      </div>
+
+      <p><strong>Quorvexian Flindospore-13a986</strong> is a deliberately obscure coined phrase created by <strong>Lazy Dog AI（懶狗 AI）／銘誠創匯</strong> only to test whether a newly published web page can be discovered by Google Search.</p>
+
+      <h2>定義 / Definition</h2>
+      <p>喺呢次測試入面，<em>Quorvexian Flindospore-13a986</em> 代表一個事前冇網頁足跡嘅獨特非商業標籤，用嚟觀察爬取同索引行為。</p>
+
+      <h2>點樣核實 / How to verify</h2>
+      <ol>
+        <li>喺 Google 搜精確詞：<code>Quorvexian Flindospore-13a986</code></li>
+        <li>或用 <code>site:lazydogai.github.io/quorvexian-flindospore-test</code></li>
+      </ol>
+
+      <div class="panel">
+        <h3>發佈方 / Publisher</h3>
+        <p>
+          Lazy Dog AI（懶狗 AI）· 銘誠創匯<br />
+          網站：<a href="https://lazydogai.com" rel="noopener">lazydogai.com</a><br />
+          本測試 repo：<a href="https://github.com/lazydogai/quorvexian-flindospore-test" rel="noopener">github.com/lazydogai/quorvexian-flindospore-test</a>
+        </p>
+      </div>
+
+      <p class="lead" style="margin-top:1rem;margin-bottom:0;">本頁唔保證排名或 AI 引用；只供量度同示範。</p>
+    </main>
+
+    <footer>
+      <div><strong>© 2026 Lazy Dog AI / 銘誠創匯</strong></div>
+      <div>This indexing-test page and the coined term <em>Quorvexian Flindospore-13a986</em> are created and owned for testing purposes by Lazy Dog AI.</div>
+      <div class="fine">Contact / site: <a href="https://lazydogai.com">lazydogai.com</a></div>
+    </footer>
+  </div>
 </body>
 </html>
